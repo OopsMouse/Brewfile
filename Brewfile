@@ -11,6 +11,7 @@ install postgresql
 install w3m
 install wget
 install tmux
+install gradle
 # zshは/etcを参照しないようにする(参考：brew info zsh)
 install zsh --disable-etcdir
 install fontforge
@@ -41,3 +42,5 @@ cask install java
 cask install cyberduck
 cask install macdown
 cask install things
+cask install remote-desktop-connection
+cask install ganttproject
